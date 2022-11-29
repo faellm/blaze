@@ -18,11 +18,11 @@ def login():
     
     input_email = driver.find_element(By.XPATH, '//*[@id="auth-modal"]/div/form/div[1]/div')
     input_email.click()
-    input_email.send_keys('rafaellara1405@gmail.com')
+    input_email.send_keys('')
     
     input_pass = driver.find_element(By.XPATH, '//*[@id="auth-modal"]/div[2]/form/div[2]')
     input_email.click()
-    input_pass.send_keys('Coxinha123*')
+    input_pass.send_keys('')
     
     sleep(1)
     
